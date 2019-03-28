@@ -21,15 +21,23 @@ services:
 
           tdev1node0:                             53.118.67.136
           q4de3gsy737.gdc-leinf01.t-systems.com:  53.118.67.136
+          unite-dev1.gdc-leinf01.t-systems.com:   53.118.67.136
+          unite-dev2.gdc-leinf01.t-systems.com:   53.118.67.136
 
           tdev1node1:                             53.118.67.140
           q4de3gsy812.gdc-leinf01.t-systems.com:  53.118.67.140
+          unite-dev1a.gdc-leinf01.t-systems.com:  53.118.67.140
+          unite-dev2a.gdc-leinf01.t-systems.com:  53.118.67.140
 
           test1node0:                             53.118.67.141
           q4de3gsy813.gdc-leinf01.t-systems.com:  53.118.67.141
+          unite-test1.gdc-leinf01.t-systems.com:  53.118.67.141
+          unite-test2.gdc-leinf01.t-systems.com:  53.118.67.141
 
           test1node1:                             53.118.67.142
           q4de3gsy814.gdc-leinf01.t-systems.com:  53.118.67.142
+          unite-test1a.gdc-leinf01.t-systems.com: 53.118.67.142
+          unite-test2a.gdc-leinf01.t-systems.com: 53.118.67.142
 
           daimler-svn:                            53.123.18.47
           sfsea207.deefs.corpintra.net:           53.123.18.47
