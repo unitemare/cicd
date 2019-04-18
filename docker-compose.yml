@@ -45,6 +45,7 @@ services:
         - "8080:8080"
       volumes:
         - ./timezone:/etc/timezone
+        - ./cacerts:/etc/ssl/certs/java/cacerts
         - /var/jenkins_home:/var/jenkins_home
         - /opt/IBM/WebSphere/AppServer:/opt/IBM/WebSphere/AppServer
         - /var/run/docker.sock:/var/run/docker.sock
