@@ -55,7 +55,6 @@ services:
 
     gogs-db:
       image: mysql:8.0.15
-      container_name: gogsdb
       restart: unless-stopped
       env_file:
         - .env
@@ -85,8 +84,18 @@ services:
       depends_on:
         - gogs-db
 
+    nexus3-repo:
+      image: sonatype/nexus3
+      restart: unless-stopped
+      ports:
+        - ${NEXUS3_PORT}:8081
+      volumes:
+          - nexus-data:/nexus-data
+
 volumes:
   gogs-data:
       driver: local
   db-data:
       driver: local      
+  nexus-data:
+      driver: local
