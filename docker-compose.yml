@@ -2,7 +2,8 @@ version: '3.3'
 services:
     tjenkins:
 #      image:                jenkins/jenkins:2.162-slim 
-      image:                jenkins-docker:2.162-slim
+#      image:                jenkins-docker:2.162-slim
+      image:                jenkins-docker:2.179
       restart:              unless-stopped
       environment:
         - JAVA_OPTS="-Djava.awt.headless=true"
